@@ -1,61 +1,28 @@
-1- 
+# Exercícios de Introdução à Programação
 
-#include <stdio.h>
+Este repositório contém exercícios desenvolvidos durante as aulas de Introdução à Programação de Computadores.
 
-int main() {
-    char nome[50];
-    int idade;
+Os exercícios têm como objetivo praticar conceitos básicos da linguagem C, como:
 
-    printf("Digite seu nome: ");
-    scanf("%49s", nome);
+- Entrada e saída de dados;
+- Variáveis e tipos de dados;
+- Operações matemáticas;
+- Cálculo de médias;
+- Formatação de números;
+- Estruturas básicas de programação.
 
-    printf("Digite sua idade: ");
-    scanf("%d", &idade);
+## Exercícios
 
-    printf("Ola %s, voce tem %d anos.\n", nome, idade);
+1. Leitura do nome e idade do usuário.
+2. Cálculo da área de um círculo.
+3. Cálculo da média de três notas.
+4. Leitura e exibição das notas de estudantes.
 
-    return 0;
-}
+## Tecnologias utilizadas
 
-2- 
+- Linguagem C
+- Visual Studio Code
 
-#include <stdio.h>
+## Objetivo
 
-int main() {
-    float raio;
-    float area;
-    const float PI = 3.14159;
-
-    printf("Digite o raio do circulo: ");
-    scanf("%f", &raio);
-
-    area = PI * raio * raio;
-
-    printf("Area do circulo: %.2f\n", area);
-
-    return 0;
-}
-
-3-
-
-#include <stdio.h>
-
-int main() {
-    float nota1, nota2, nota3;
-    float media;
-
-    printf("Digite a primeira nota: ");
-    scanf("%f", &nota1);
-
-    printf("Digite a segunda nota: ");
-    scanf("%f", &nota2);
-
-    printf("Digite a terceira nota: ");
-    scanf("%f", &nota3);
-
-    media = (nota1 + nota2 + nota3) / 3;
-
-    printf("Media: %.1f\n", media);
-
-    return 0;
-}
+Praticar os fundamentos da programação e desenvolver a lógica necessária para resolver problemas utilizando a linguagem C.
